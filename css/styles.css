@@ -179,12 +179,14 @@ header {
 
 .qualities-items {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .qualities-item {
   width: 296px;
+}
+
+.qualities-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .quality-name {
