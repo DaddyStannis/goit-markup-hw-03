@@ -113,6 +113,11 @@ header {
   color: var(--main-text-color);
 }
 
+.header-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .menu {
   display: flex;
 }
