@@ -52,8 +52,9 @@ a {
 }
 
 .container {
-  width: 1230px;
-  padding: 0 15px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -206,7 +207,7 @@ a {
 
 .what-we-do-items {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 50px 0 0 0;
 }
 
@@ -225,11 +226,8 @@ a {
 
 .staff-cards {
   display: flex;
+  justify-content: space-between;
   margin-top: 50px;
-}
-
-.staff-card:not(:last-child) {
-  margin-right: 30px;
 }
 
 .staff-photo {
@@ -290,9 +288,17 @@ a {
 .portfolio-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-
+  justify-content: space-between;
   margin-top: 50px;
+}
+
+.portfolio-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-item:nth-child(n + 4) {
+  margin-top: 30px;
 }
 
 .portfolio-info {
