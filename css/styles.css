@@ -53,7 +53,7 @@ a {
 }
 
 header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .container {
@@ -61,6 +61,11 @@ header {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .header-container {
@@ -177,11 +182,6 @@ header {
   color: var(--text-color-on-dark-bg);
 }
 
-.qualities-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .qualities-items {
   display: flex;
 }
@@ -227,11 +227,6 @@ header {
   margin-right: 30px;
 }
 
-.staff-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .staff {
   background: var(--portfolio-bg-color);
 }
@@ -263,11 +258,6 @@ header {
   text-align: center;
 
   color: var(--secondary-text-color);
-}
-
-.filter-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .filter-items {
