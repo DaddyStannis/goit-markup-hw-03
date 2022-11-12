@@ -5,6 +5,7 @@
   --bg-color: #2f303a;
   --text-color-on-dark-bg: #ffffff;
   --addr-color: rgba(255, 255, 255, 0.6);
+  --portfolio-bg-color: #f5f4fa;
 }
 
 body {
@@ -49,6 +50,10 @@ h6 {
 
 a {
   text-decoration: none;
+}
+
+header {
+  border: 1px solid #ececec;
 }
 
 .container {
@@ -221,7 +226,7 @@ a {
 }
 
 .staff {
-  background: #f5f4fa;
+  background: var(--portfolio-bg-color);
 }
 
 .staff-cards {
@@ -271,7 +276,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 
-  background: #f5f4fa;
+  background: var(--portfolio-bg-color);
 }
 
 .filter-item:not(:first-child) {
@@ -293,7 +298,7 @@ a {
 }
 
 .portfolio-item {
-  background: #ffffff;
+  color: var(--text-color-on-dark-bg);
   border: 1px solid #eeeeee;
 }
 
