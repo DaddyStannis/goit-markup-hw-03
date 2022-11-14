@@ -290,17 +290,14 @@ header {
 .portfolio-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 30px;
   margin-top: 50px;
 }
 
 .portfolio-item {
+  flex-basis: calc((100% - 2 * 30px) / 3);
   color: var(--text-color-on-dark-bg);
   border: 1px solid #eeeeee;
-}
-
-.portfolio-item:nth-child(n + 4) {
-  margin-top: 30px;
 }
 
 .portfolio-info {
